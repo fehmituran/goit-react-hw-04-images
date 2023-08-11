@@ -20,6 +20,7 @@ export const App = () => {
     setSearchQuery(searchValue);
     setImages([]);
     setPage(1);
+    setTotalPage(0);
   };
 
   useEffect(() => {
